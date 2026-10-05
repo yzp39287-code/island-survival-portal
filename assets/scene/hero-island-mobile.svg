@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 1100" width="600" height="1100" aria-hidden="true">
+  <defs>
+    <linearGradient id="skyM" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9bb4c1"/>
+      <stop offset=".56" stop-color="#c0cfca"/>
+      <stop offset="1" stop-color="#d5ddd3"/>
+    </linearGradient>
+    <linearGradient id="seaM" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a1bbb4"/>
+      <stop offset=".38" stop-color="#88a69f"/>
+      <stop offset="1" stop-color="#718e87"/>
+    </linearGradient>
+    <linearGradient id="sandM" x1=".2" y1="0" x2=".8" y2="1">
+      <stop offset="0" stop-color="#e9e0c8"/>
+      <stop offset="1" stop-color="#c9c1a4"/>
+    </linearGradient>
+    <linearGradient id="landM" x1=".25" y1="0" x2=".75" y2="1">
+      <stop offset="0" stop-color="#9eaf81"/>
+      <stop offset=".55" stop-color="#82966d"/>
+      <stop offset="1" stop-color="#6d8361"/>
+    </linearGradient>
+    <radialGradient id="shallowsM">
+      <stop offset="0" stop-color="#b2cabd" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#9bbab1" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softM" x="-25%" y="-30%" width="150%" height="160%">
+      <feGaussianBlur stdDeviation="11"/>
+    </filter>
+    <g id="treeM">
+      <path d="M-4 0 4 0 2-52-2-52Z" fill="#806d5b"/>
+      <path d="M0-103 17-94 30-78 25-65 39-52 30-39 37-26 19-20 15-7-19-7-23-22-39-30-29-45-37-57-24-69-27-83-14-95Z" fill="#536c52"/>
+      <path d="M0-96 12-89 21-76 15-63 27-51 20-41 26-29 9-25 7-13-11-13-15-27-27-33-19-47-27-58-16-69-19-81-8-90Z" fill="#82946d"/>
+      <path d="M1-94 4-73 14-54 8-49 19-36 9-34 8-14 2-14Z" fill="#a4af84" opacity=".7"/>
+    </g>
+    <g id="palmM">
+      <path d="M0 0C2-35 12-64 4-94" fill="none" stroke="#806c58" stroke-width="8" stroke-linecap="round"/>
+      <path d="M4-94C-13-121-37-123-55-116-38-105-17-98 4-94Z" fill="#637a59"/>
+      <path d="M4-94C-2-126 2-146 12-158 18-131 14-109 4-94Z" fill="#758962"/>
+      <path d="M4-94C23-123 44-132 62-124 45-108 25-97 4-94Z" fill="#526b52"/>
+      <path d="M4-94C34-110 57-104 70-89 46-91 23-90 4-94Z" fill="#87966d"/>
+      <path d="M4-94C-25-103-45-92-60-77-35-81-14-85 4-94Z" fill="#72865c"/>
+    </g>
+    <g id="rockM">
+      <path d="M-27 2-18-16-3-20 9-13 23-15 31 2Z" fill="#68766c"/>
+      <path d="M-18-16-3-20 7-13-3-7-22-7Z" fill="#9da08d"/>
+      <path d="M7-13 23-15 31 2 3 2Z" fill="#56675f"/>
+    </g>
+  </defs>
+
+  <rect width="600" height="1100" fill="url(#skyM)"/>
+  <g fill="#f0f0e6" opacity=".2" filter="url(#softM)">
+    <ellipse cx="116" cy="148" rx="102" ry="13"/>
+    <ellipse cx="446" cy="224" rx="118" ry="15"/>
+  </g>
+  <!-- 薄雾中的远岸 -->
+  <path d="M-20 414c54-35 99-44 147-32 35 9 55 24 81 43H-20Z" fill="#718b85" opacity=".44"/>
+  <path d="M414 424c47-40 92-47 136-35 24 7 37 17 62 35Z" fill="#6d8581" opacity=".4"/>
+  <rect y="402" width="600" height="73" fill="#dce3da" opacity=".24"/>
+  <rect y="436" width="600" height="664" fill="url(#seaM)"/>
+  <ellipse cx="315" cy="762" rx="340" ry="250" fill="url(#shallowsM)"/>
+
+  <!-- 层次分明的海面 -->
+  <path d="M0 518c124-11 242 12 359 2 88-8 166-8 241 0v56c-104-9-173-3-269 3-123 8-217-15-331-4Z" fill="#cad5c8" opacity=".09"/>
+  <g fill="none" stroke-linecap="round">
+    <g stroke="#e0e8dd" stroke-width="2.4" opacity=".33">
+      <path d="M45 503q25-6 50 0t50 0"/><path d="M347 532q25-6 50 0t50 0"/>
+      <path d="M122 596q28-7 56 0t56 0"/><path d="M428 631q24-6 48 0t48 0"/>
+      <path d="M58 712q32-7 64 0t64 0"/><path d="M432 844q26-6 52 0t52 0"/>
+    </g>
+    <g stroke="#5e8079" stroke-width="3" opacity=".18">
+      <path d="M223 552q30-7 60 0t60 0"/><path d="M56 666q34-8 68 0t68 0"/>
+      <path d="M375 739q26-6 52 0t52 0"/><path d="M171 899q34-8 68 0t68 0"/>
+    </g>
+  </g>
+
+  <!-- 岛影、奶油色浅滩与草坡 -->
+  <ellipse cx="311" cy="818" rx="272" ry="38" fill="#405f5a" opacity=".26" filter="url(#softM)"/>
+  <path d="M48 752c35-45 63-74 103-93 27-13 42-37 70-57 30-21 61-26 91-20 38 8 57 33 96 39 37 6 72-9 104 9 34 19 52 50 91 107-42 45-95 69-159 82-80 16-167 14-245 5-73-9-124-27-151-72Z" fill="#e3ddc6" opacity=".9"/>
+  <path d="M57 748c41-47 67-70 113-88 23-10 45-39 72-56 28-18 51-20 77-14 31 8 48 28 79 34 43 8 75-9 107 12 30 19 44 43 68 80-50 10-89 20-133 37-63 25-103 45-183 48-82 3-153-18-200-53Z" fill="url(#sandM)"/>
+  <path d="M93 736c43-33 73-45 114-59 25-9 50-42 83-56 27-11 48-11 71-1 28 12 42 35 74 41 38 7 69-7 99 11 22 13 42 36 57 55-36 15-65 21-101 23-48 3-68-12-114 1-48 14-73 43-136 46-63 2-115-22-147-61Z" fill="url(#landM)"/>
+  <path d="M216 666c28-47 58-79 92-93 27-11 55-6 73 14 17 18 25 41 48 53-39 4-60 23-76 46-20 28-45 49-81 48-33-1-55-24-56-68Z" fill="#a9b491"/>
+  <path d="M309 574c25 5 48 24 63 47 12 18 19 36 35 51-26-6-45-19-59-38-17-23-27-43-39-60Z" fill="#c4c4a7" opacity=".75"/>
+  <path d="M101 742c34-18 66-24 98-19-33 13-51 29-68 47-14 15-29 19-47 17 0-16 5-31 17-45Z" fill="#b5bd91" opacity=".82"/>
+  <path d="M406 708c32-22 70-27 99-16 23 9 43 25 67 54-33-17-61-24-88-21-31 4-51 2-78-17Z" fill="#718a64"/>
+
+  <!-- 后排树群和高处棕榈 -->
+  <use href="#treeM" x="154" y="700" transform="scale(.76) translate(48 220)"/>
+  <use href="#treeM" x="234" y="675" transform="scale(.9) translate(26 74)"/>
+  <use href="#treeM" x="314" y="674" transform="scale(.85) translate(56 118)"/>
+  <use href="#treeM" x="402" y="701" transform="scale(.73) translate(149 258)"/>
+  <use href="#palmM" x="103" y="729" transform="scale(.73) translate(37 268)"/>
+  <use href="#palmM" x="489" y="743" transform="scale(.68) translate(230 350)"/>
+
+  <!-- 前排植被、岩石与沙滩细节 -->
+  <use href="#treeM" x="183" y="766" transform="scale(.7) translate(67 330)"/>
+  <use href="#treeM" x="285" y="785" transform="scale(.76) translate(100 248)"/>
+  <use href="#treeM" x="385" y="772" transform="scale(.69) translate(174 338)"/>
+  <use href="#rockM" x="77" y="779"/><use href="#rockM" x="527" y="795"/>
+  <use href="#rockM" x="161" y="827" transform="scale(.72)"/>
+  <use href="#rockM" x="443" y="825" transform="scale(.8)"/>
+  <path d="M236 786c31-10 62-9 87 1" fill="none" stroke="#ded2b1" stroke-width="5" stroke-linecap="round" opacity=".68"/>
+
+  <!-- 近景礁石框住海面，留出主岛轮廓 -->
+  <use href="#rockM" x="18" y="1038" transform="scale(1.5)"/>
+  <use href="#rockM" x="576" y="1064" transform="scale(1.6)"/>
+  <g fill="none" stroke="#e2eadf" stroke-width="3" stroke-linecap="round" opacity=".42">
+    <path d="M33 932q30-7 60 0t60 0"/><path d="M336 1000q33-8 66 0t66 0"/>
+    <path d="M196 1061q28-6 56 0t56 0"/>
+  </g>
+</svg>

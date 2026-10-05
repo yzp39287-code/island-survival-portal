@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>版本历史 · 荒岛求生</title>
+<meta name="description" content="荒岛求生的版本历史与更新记录。">
+<link rel="icon" href="assets/icons/island-mark.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css?v=20261005-6">
+</head>
+<body class="page-versions">
+<a class="skip-link" href="#main">跳到主要内容</a>
+
+<header class="site-header" id="siteHeader">
+  <div class="shell header-inner">
+    <a class="brand" href="index.html">
+      <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
+        <defs>
+          <linearGradient id="bmSky" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#b4c9d6"></stop>
+            <stop offset="1" stop-color="#e6ebe6"></stop>
+          </linearGradient>
+        </defs>
+        <rect width="40" height="40" rx="11" fill="url(#bmSky)"></rect>
+        <circle cx="30" cy="12" r="4.4" fill="#f2e3c2" opacity="0.9"></circle>
+        <path d="M0 25h40v15H0z" fill="#8baaa6"></path>
+        <path d="M0 25c6-2 12 2 20 0s14-2 20 0v3H0z" fill="#a9c6bf" opacity="0.75"></path>
+        <ellipse cx="19" cy="28.5" rx="13" ry="5.4" fill="#dbd5ba"></ellipse>
+        <ellipse cx="19" cy="27" rx="10.6" ry="4.4" fill="#acba8f"></ellipse>
+        <path d="M19 27c0-4 1.5-6.6 3.2-8.2" stroke="#8a9c73" stroke-width="3.2" fill="none" stroke-linecap="round"></path>
+        <circle cx="15.6" cy="30" r="2.4" fill="#5e7753"></circle>
+        <circle cx="22.4" cy="30.4" r="2" fill="#6c8460"></circle>
+      </svg>
+      <span class="brand-name">荒岛求生</span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="primaryNav">
+      <span class="nav-toggle-bars" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span>菜单</span>
+    </button>
+
+    <nav class="primary-nav" id="primaryNav" aria-label="主导航">
+      <ul>
+        <li><a href="index.html">首页</a></li>
+        <li><a href="index.html#games">游戏</a></li>
+        <li><a href="versions.html">版本</a></li>
+        <li><a href="index.html#about">关于</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="page-head">
+    <div class="shell">
+      <h1>版本历史</h1>
+      <p class="page-lede">当前长期稳定基线为 v12.2 Final Foundation。内容整理自正式说明与验收报告。</p>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="shell">
+      <div class="timeline" id="releaseTimeline"><!-- 由 app.js 渲染 --></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="shell footer-inner">
+    <div class="footer-about">
+      <h2>关于</h2>
+      <p>荒岛求生是一款 3D 荒岛生存游戏。这个页面是它的启动页。</p>
+    </div>
+    <nav class="footer-links" aria-label="页脚导航">
+      <a href="index.html">返回首页</a>
+      <a href="game.html">游戏详情</a>
+      <a href="games/island-survival.html">启动游戏</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="data/games.js"></script>
+<script src="data/releases.js?v=20261005-2"></script>
+<script src="data/controls.js?v=20261005-3"></script>
+<script src="data/screenshots.js"></script>
+<script src="app.js?v=20261005-5"></script>
+</body>
+</html>

@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" aria-hidden="true">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#91aebe"/>
+      <stop offset=".48" stop-color="#b8c9c8"/>
+      <stop offset="1" stop-color="#d7ded5"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a3bbb5"/>
+      <stop offset=".22" stop-color="#91ada7"/>
+      <stop offset=".66" stop-color="#7f9d97"/>
+      <stop offset="1" stop-color="#718f89"/>
+    </linearGradient>
+    <linearGradient id="sand" x1=".2" y1="0" x2=".8" y2="1">
+      <stop offset="0" stop-color="#e7dfc7"/>
+      <stop offset=".56" stop-color="#d6cfb5"/>
+      <stop offset="1" stop-color="#c5bea3"/>
+    </linearGradient>
+    <linearGradient id="grass" x1=".35" y1="0" x2=".68" y2="1">
+      <stop offset="0" stop-color="#9daf82"/>
+      <stop offset=".5" stop-color="#83996f"/>
+      <stop offset="1" stop-color="#6e8563"/>
+    </linearGradient>
+    <linearGradient id="ridge" x1=".1" y1="0" x2=".9" y2="1">
+      <stop offset="0" stop-color="#a9b291"/>
+      <stop offset=".5" stop-color="#879477"/>
+      <stop offset="1" stop-color="#687d68"/>
+    </linearGradient>
+    <linearGradient id="haze" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e5e9df" stop-opacity="0"/>
+      <stop offset="1" stop-color="#e5e9df" stop-opacity=".48"/>
+    </linearGradient>
+    <radialGradient id="lagoon">
+      <stop offset="0" stop-color="#b0c9be" stop-opacity=".75"/>
+      <stop offset=".62" stop-color="#a2c0b7" stop-opacity=".38"/>
+      <stop offset="1" stop-color="#9bbab3" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-25%" y="-30%" width="150%" height="160%">
+      <feGaussianBlur stdDeviation="13"/>
+    </filter>
+    <filter id="far" x="-15%" y="-20%" width="130%" height="140%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+    <g id="treeA">
+      <path d="M-5 0 4 0 2-54-3-54Z" fill="#806e5d"/>
+      <path d="M-2-111 18-101 31-82 26-69 40-55 31-42 39-29 20-22 15-8-20-8-25-23-42-31-31-47-39-60-25-72-29-86-15-101Z" fill="#526b52"/>
+      <path d="M-3-103 11-96 20-80 14-67 28-54 20-43 28-33 9-28 7-15-12-15-16-29-29-35-20-49-29-60-17-73-20-85-10-97Z" fill="#748962"/>
+      <path d="M-2-104 2-78 13-58 7-53 20-39 9-37 7-16 1-16Z" fill="#91a077" opacity=".72"/>
+    </g>
+    <g id="treeB">
+      <path d="M-4 0 4 0 3-42-2-42Z" fill="#806e5d"/>
+      <path d="M0-91 17-82 28-66 23-55 34-43 26-32 32-20 15-16 12-5-17-5-21-18-34-24-25-37-32-48-20-58-22-72-12-83Z" fill="#5b7257"/>
+      <path d="M0-84 12-77 20-64 14-53 25-42 18-34 23-23 8-20 7-11-10-11-13-24-25-29-17-40-25-50-14-59-16-70-8-78Z" fill="#889a70"/>
+      <path d="M2-82 4-60 13-43 7-39 17-29 8-28 8-12 2-12Z" fill="#a2ad83" opacity=".7"/>
+    </g>
+    <g id="palm">
+      <path d="M0 0 C3-36 13-67 5-99" stroke="#806d59" stroke-width="9" fill="none" stroke-linecap="round"/>
+      <path d="M5-99 C-8-126-39-133-56-128 C-36-115-17-107 5-99Z" fill="#62795b"/>
+      <path d="M5-99 C-8-133-5-151 7-164 C12-138 11-118 5-99Z" fill="#728860"/>
+      <path d="M5-99 C18-133 41-145 62-141 C44-124 25-111 5-99Z" fill="#536d53"/>
+      <path d="M5-99 C34-119 59-116 76-102 C50-101 27-98 5-99Z" fill="#81926a"/>
+      <path d="M5-99 C-23-110-48-102-63-86 C-38-89-14-91 5-99Z" fill="#71865d"/>
+    </g>
+    <g id="rock">
+      <path d="M-34 3-21-20-4-24 9-15 28-17 39 3Z" fill="#777e73"/>
+      <path d="M-21-20-4-24 7-15-4-8-25-8Z" fill="#9b9d89"/>
+      <path d="M7-15 28-17 39 3 4 3Z" fill="#626f67"/>
+    </g>
+    <path id="island" d="M604 735
+      C646 703 671 672 716 651
+      C757 632 782 640 818 613
+      C861 580 889 548 938 531
+      C989 513 1035 508 1080 523
+      C1128 540 1154 569 1206 580
+      C1267 594 1328 570 1389 591
+      C1460 616 1528 664 1627 737
+      C1560 780 1470 801 1375 814
+      C1256 831 1133 825 1018 813
+      C890 800 778 786 691 764
+      C651 754 621 746 604 735Z"/>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <g fill="#f2f2e9" opacity=".25" filter="url(#soft)">
+    <path d="M95 164c82-30 166-27 247 0-76 20-171 23-247 0Z"/>
+    <path d="M493 230c79-23 152-20 223 2-72 16-151 17-223-2Z"/>
+    <path d="M1120 144c93-31 197-21 280 4-82 18-194 18-280-4Z"/>
+  </g>
+
+  <!-- 远景群岛与薄雾海平线 -->
+  <g fill="#718b88" opacity=".48" filter="url(#far)">
+    <path d="M-40 448c90-54 180-75 269-48 36 11 64 28 95 48Z"/>
+    <path d="M271 448c68-35 135-45 202-28 30 8 53 17 72 28Z" opacity=".62"/>
+    <path d="M1113 448c88-61 177-74 268-51 53 14 92 31 139 51Z"/>
+    <path d="M1397 448c61-37 113-43 174-28 24 6 42 15 61 28Z" opacity=".72"/>
+  </g>
+  <rect y="405" width="1600" height="100" fill="url(#haze)"/>
+  <g fill="#516f68" opacity=".42">
+    <path d="M62 444c38-25 75-37 105-33l29 33Z"/>
+    <path d="M1462 444c31-27 64-35 94-28l34 28Z"/>
+  </g>
+
+  <!-- 青灰海面 -->
+  <rect y="444" width="1600" height="456" fill="url(#sea)"/>
+  <path d="M0 498c264-16 495 18 766 0 286-18 562-6 834 6v54c-290-9-557-18-834-2-288 16-513-20-766-3Z" fill="#b3c6bd" opacity=".1"/>
+  <ellipse cx="1190" cy="725" rx="640" ry="236" fill="url(#lagoon)"/>
+  <g fill="none" stroke-linecap="round">
+    <g stroke="#dce6dc" stroke-width="2" opacity=".34">
+      <path d="M80 528q32-8 64 0t64 0"/><path d="M405 560q28-7 56 0t56 0"/>
+      <path d="M944 518q36-8 72 0t72 0"/><path d="M1320 554q30-7 60 0t60 0"/>
+      <path d="M242 638q35-8 70 0t70 0"/><path d="M1018 610q32-8 64 0t64 0"/>
+      <path d="M1470 638q34-7 68 0t68 0"/><path d="M484 758q28-7 56 0t56 0"/>
+    </g>
+    <g stroke="#5f827d" stroke-width="3" opacity=".17">
+      <path d="M168 588q48-10 96 0t96 0"/><path d="M750 576q36-8 72 0t72 0"/>
+      <path d="M1240 670q52-12 104 0t104 0"/><path d="M564 842q44-10 88 0t88 0"/>
+    </g>
+  </g>
+
+  <!-- 主岛投影、沙岸与草坡 -->
+  <g transform="translate(290 0) scale(.78 1)">
+  <ellipse cx="1127" cy="776" rx="526" ry="57" fill="#506c68" opacity=".28" filter="url(#soft)"/>
+  <use href="#island" fill="#e6e3d0" opacity=".9" transform="translate(0 12)"/>
+  <use href="#island" fill="url(#sand)"/>
+  <path d="M626 732c61-62 112-74 163-92 27-9 52-31 79-57-8 49-4 81-37 114-37 36-100 59-174 70-14-8-24-19-31-35Z" fill="#eee5ce" opacity=".95"/>
+  <path d="M1205 584c66 16 116 4 175 12 81 10 159 60 230 141-93 37-165 44-249 48-54-18-101-51-131-97-28-43-31-75-25-104Z" fill="#d8cfb6" opacity=".7"/>
+  <path d="M687 741c32-47 94-78 156-84 61-6 107 15 164 2 74-16 91-84 163-116 75-34 133 5 205 20 54 11 103 3 148 18-51-55-98-91-151-110-66-24-120-7-176-24-68-21-97-64-165-73-66-9-132 19-181 68-41 41-65 78-111 99-52 24-91 8-139 50-35 31-54 78-47 120 36 14 80 24 134 30Z" fill="url(#grass)"/>
+  <path d="M804 663c37-39 62-97 110-133 43-33 92-37 133-13 32 18 50 51 90 63-46 4-78 20-105 49-33 35-56 74-105 91-41 14-82 8-123-4Z" fill="url(#ridge)"/>
+  <path d="M1049 518c40 16 68 49 89 87 20 37 31 73 55 109-42-17-73-44-93-81-24-44-38-80-51-115Z" fill="#b0b393" opacity=".72"/>
+  <path d="M839 687c59-4 96 2 139 21-48 3-87-2-127 22-28 17-49 36-82 40 11-38 31-63 70-83Z" fill="#aaba8d" opacity=".78"/>
+  <path d="M1192 674c49-31 117-35 166-20 50 16 84 51 129 94-63-29-96-45-144-48-60-4-99 5-151-26Z" fill="#718963" opacity=".82"/>
+
+  <!-- 后排树群：棱面树冠和远近变化 -->
+  <use href="#treeB" x="874" y="686"/><use href="#treeA" x="972" y="666"/>
+  <use href="#treeB" x="1072" y="652"/><use href="#treeA" x="1174" y="660"/>
+  <use href="#treeB" x="1274" y="679"/><use href="#treeA" x="1371" y="705"/>
+
+  <!-- 前排树木、棕榈与植被 -->
+  <use href="#treeA" x="831" y="752"/><use href="#treeB" x="948" y="774"/>
+  <use href="#treeA" x="1061" y="756"/><use href="#treeB" x="1178" y="778"/>
+  <use href="#treeA" x="1290" y="765"/><use href="#palm" x="773" y="754"/>
+  <use href="#palm" x="1460" y="771"/>
+
+  <!-- 沙滩岩石与营地小径 -->
+  <use href="#rock" x="650" y="766"/><use href="#rock" x="810" y="794"/>
+  <use href="#rock" x="1440" y="795"/><use href="#rock" x="1542" y="767"/>
+  <path d="M958 777c59-17 118-14 170 1" fill="none" stroke="#d5c9a8" stroke-width="8" stroke-linecap="round" opacity=".66"/>
+  <path d="M957 778c56-14 105-12 145 0" fill="none" stroke="#9b947c" stroke-width="2" stroke-dasharray="4 10" opacity=".48"/>
+  </g>
+
+  <!-- 前景小礁石与划行木筏 -->
+  <g transform="translate(278 760)">
+    <ellipse cx="0" cy="21" rx="64" ry="14" fill="#536e69" opacity=".25"/>
+    <path d="M-48 2q48 21 96 0l-13 18h-70Z" fill="#756d5d"/>
+    <path d="M-45 1h90" stroke="#c0aa81" stroke-width="5"/>
+    <path d="M1 2v-59" stroke="#6c675c" stroke-width="4"/>
+    <path d="M5-55c30 11 39 30 36 46C25-19 13-30 5-44Z" fill="#e3d8bd"/>
+  </g>
+  <use href="#rock" x="105" y="856"/><use href="#rock" x="1484" y="873"/>
+  <g fill="none" stroke="#e5ece2" stroke-width="3" stroke-linecap="round" opacity=".42">
+    <path d="M46 816q34-9 68 0t68 0"/><path d="M408 864q38-9 76 0t76 0"/>
+    <path d="M1242 854q42-10 84 0t84 0"/><path d="M920 882q34-8 68 0t68 0"/>
+  </g>
+  <g fill="none" stroke="#536f6e" stroke-width="2.4" stroke-linecap="round" opacity=".52">
+    <path d="M700 198q12-10 24 0t24 0"/><path d="M779 168q9-8 18 0t18 0"/>
+    <path d="M1320 218q10-8 20 0t20 0"/>
+  </g>
+</svg>

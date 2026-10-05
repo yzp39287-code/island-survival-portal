@@ -1,0 +1,266 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="低多边形海岛场景：薄雾天空、远海、环礁主岛与森林">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A6BED1"/>
+      <stop offset="0.45" stop-color="#C3D3D7"/>
+      <stop offset="0.82" stop-color="#DCE3E0"/>
+      <stop offset="1" stop-color="#E6EAE5"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#CBD6D1"/>
+      <stop offset="0.06" stop-color="#B3C6C1"/>
+      <stop offset="0.2" stop-color="#9BB8B3"/>
+      <stop offset="0.55" stop-color="#8BAAA6"/>
+      <stop offset="1" stop-color="#96B2AB"/>
+    </linearGradient>
+    <radialGradient id="shallow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#79C2B6" stop-opacity="0.9"/>
+      <stop offset="0.55" stop-color="#86C8BC" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#8CC6BC" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sand" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#E1DBC2"/>
+      <stop offset="1" stop-color="#C9C2A3"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0.3" y1="0" x2="0.7" y2="1">
+      <stop offset="0" stop-color="#ACBA8F"/>
+      <stop offset="1" stop-color="#8A9C73"/>
+    </linearGradient>
+    <linearGradient id="mtn" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#B2B8A0"/>
+      <stop offset="1" stop-color="#7E8671"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#E7C48C" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#E7C48C" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <filter id="soft2" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+    <filter id="soft3" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+
+    <g id="tA">
+      <rect x="-2.4" y="-4" width="5" height="14" fill="#B09A98"/>
+      <circle cx="0" cy="-15" r="13.5" fill="#6C8460"/>
+      <circle cx="-9" cy="-8" r="9" fill="#5E7753"/>
+      <circle cx="9" cy="-9" r="8.5" fill="#798E6A"/>
+    </g>
+    <g id="tB">
+      <rect x="-2.2" y="-3" width="4.4" height="12" fill="#B49E9B"/>
+      <circle cx="0" cy="-13" r="11" fill="#7D9269"/>
+      <circle cx="-7" cy="-7" r="7.5" fill="#69805B"/>
+      <circle cx="7.5" cy="-7" r="7" fill="#8B9D75"/>
+    </g>
+    <g id="tC">
+      <rect x="-2" y="-3" width="4" height="11" fill="#AD9794"/>
+      <circle cx="0" cy="-11" r="9.5" fill="#4C6345"/>
+    </g>
+    <g id="palm">
+      <path d="M0 0 C-2 -18 -3 -34 -2 -50" stroke="#B49C99" stroke-width="4.2" fill="none" stroke-linecap="round"/>
+      <g stroke="#68855F" stroke-width="3.4" fill="none" stroke-linecap="round">
+        <path d="M-2 -50 C-13 -60 -25 -61 -34 -55"/>
+        <path d="M-2 -50 C-8 -64 -6 -74 6 -80"/>
+        <path d="M-2 -50 C9 -61 21 -62 30 -55"/>
+        <path d="M-2 -50 C-11 -50 -19 -44 -24 -35"/>
+        <path d="M-2 -50 C8 -50 16 -44 21 -35"/>
+      </g>
+      <circle cx="-2" cy="-50" r="2.6" fill="#5C7454"/>
+    </g>
+    <g id="rock">
+      <ellipse cx="0" cy="0" rx="11" ry="6" fill="#98998C"/>
+      <ellipse cx="2.5" cy="-3" rx="7" ry="4" fill="#AFB0A1"/>
+    </g>
+    <g id="bush">
+      <ellipse cx="0" cy="0" rx="7.5" ry="4.5" fill="#6E8760"/>
+    </g>
+
+    <!-- 主岛轮廓（沙滩与草地共用） -->
+    <path id="isle" d="M566 668 C566 620 604 578 668 560 C712 548 744 552 782 536
+             C840 510 908 508 964 528 C1006 542 1024 534 1066 540 C1138 550 1216 572 1274 606
+             C1332 640 1354 682 1312 716 C1270 750 1172 766 1076 774 C978 782 874 778 788 754
+             C702 730 566 716 566 668 Z"/>
+  </defs>
+
+  <!-- 天空 -->
+  <rect x="0" y="0" width="1600" height="520" fill="url(#sky)"/>
+
+  <!-- 云 -->
+  <g filter="url(#soft)" opacity="0.5" fill="#FFFFFF">
+    <ellipse cx="290" cy="126" rx="134" ry="25"/>
+    <ellipse cx="426" cy="114" rx="88" ry="19"/>
+    <ellipse cx="1226" cy="86" rx="150" ry="23"/>
+    <ellipse cx="1372" cy="110" rx="92" ry="18"/>
+    <ellipse cx="806" cy="196" rx="112" ry="17"/>
+  </g>
+  <g filter="url(#soft2)" opacity="0.38" fill="#FFFFFF">
+    <ellipse cx="596" cy="60" rx="72" ry="12"/>
+    <ellipse cx="1478" cy="206" rx="84" ry="13"/>
+    <ellipse cx="168" cy="246" rx="66" ry="11"/>
+  </g>
+
+  <!-- 雾中远岛 -->
+  <g opacity="0.34" fill="#A6B0AC">
+    <path d="M-30 470 C40 444 92 436 150 440 L176 470 Z"/>
+    <rect x="52" y="436" width="8" height="20"/>
+  </g>
+  <g opacity="0.32" fill="#A9B2AE">
+    <path d="M1290 470 C1330 436 1390 428 1450 438 L1480 470 Z"/>
+    <rect x="1394" y="428" width="8" height="22"/>
+  </g>
+
+  <!-- 海 -->
+  <rect x="0" y="468" width="1600" height="432" fill="url(#sea)"/>
+  <rect x="0" y="468" width="1600" height="26" fill="#E2E7E2" opacity="0.55" filter="url(#soft3)"/>
+  <g filter="url(#soft3)" opacity="0.35" fill="#7FB5AE">
+    <ellipse cx="300" cy="700" rx="260" ry="60"/>
+    <ellipse cx="1340" cy="760" rx="280" ry="66"/>
+  </g>
+  <g filter="url(#soft3)" opacity="0.28" fill="#A9C8C1">
+    <ellipse cx="700" cy="860" rx="320" ry="70"/>
+    <ellipse cx="1120" cy="620" rx="220" ry="46"/>
+  </g>
+
+  <!-- 远海波纹 -->
+  <g stroke="#DEE6E1" stroke-width="2.2" fill="none" opacity="0.45" stroke-linecap="round">
+    <path d="M70 546 q26 -7 52 0 t52 0"/>
+    <path d="M392 560 q30 -8 60 0 t60 0"/>
+    <path d="M712 542 q24 -6 48 0 t48 0"/>
+    <path d="M1188 556 q32 -8 64 0 t64 0"/>
+    <path d="M1416 540 q22 -6 44 0 t44 0"/>
+    <path d="M150 620 q34 -8 68 0 t68 0"/>
+    <path d="M980 610 q28 -7 56 0 t56 0"/>
+    <path d="M620 646 q30 -8 60 0 t60 0"/>
+    <path d="M240 600 q26 -7 52 0 t52 0"/>
+  </g>
+
+  <!-- 岛周浅水 -->
+  <ellipse cx="960" cy="676" rx="452" ry="196" fill="url(#shallow)"/>
+
+  <!-- 岛：浪花 → 沙滩 → 草地 -->
+  <use href="#isle" fill="#E2EAE4" opacity="0.55" filter="url(#soft2)" transform="translate(960,690) scale(1.05) translate(-960,-664)"/>
+  <use href="#isle" fill="url(#sand)"/>
+  <use href="#isle" fill="url(#grass)" transform="translate(960,658) scale(0.94) translate(-960,-664)"/>
+  <use href="#isle" fill="#9DB080" opacity="0.45" transform="translate(960,652) scale(0.78) translate(-960,-664)"/>
+  <!-- 滩涂：把沙滩做出不规则的宽窄变化 -->
+  <g fill="url(#sand)" opacity="0.95">
+    <path d="M600 690 C640 700 700 706 760 700 C742 722 690 730 646 722 C616 716 598 704 600 690 Z"/>
+    <path d="M1200 716 C1240 712 1290 700 1316 686 C1320 710 1276 730 1236 732 C1216 733 1204 726 1200 716 Z"/>
+  </g>
+  <g fill="#A6B88C" opacity="0.9">
+    <path d="M676 596 C724 578 780 570 826 574 C790 596 736 606 690 606 C678 605 672 601 676 596 Z"/>
+    <path d="M1120 574 C1170 578 1216 592 1244 610 C1206 610 1156 600 1124 588 C1116 585 1114 578 1120 574 Z"/>
+  </g>
+
+  <!-- 山体 -->
+  <path d="M812 652 C822 596 852 522 902 488 C930 468 966 466 992 486 C1032 516 1064 588 1078 652 Z" fill="url(#mtn)"/>
+  <path d="M962 472 C1000 486 1032 516 1054 566 C1066 594 1074 624 1078 652 L1000 652 C992 580 978 512 962 472 Z" fill="#767E6B" opacity="0.4"/>
+  <path d="M962 472 C948 492 932 516 922 542 C944 526 956 512 968 504 Z" fill="#C6C8B2" opacity="0.45"/>
+  <path d="M1046 640 C1054 606 1076 566 1108 556 C1140 566 1162 604 1168 640 Z" fill="#98A088" opacity="0.92"/>
+  <path d="M1108 556 C1128 566 1146 592 1156 640 L1130 640 C1122 604 1116 576 1108 556 Z" fill="#7E8671" opacity="0.4"/>
+
+  <!-- 后排树林 -->
+  <g>
+    <use href="#tC" x="694" y="596"/>
+    <use href="#tC" x="736" y="588"/>
+    <use href="#tB" x="780" y="598"/>
+    <use href="#tC" x="672" y="616"/>
+    <use href="#tB" x="1146" y="598"/>
+    <use href="#tC" x="1194" y="610"/>
+    <use href="#tB" x="1242" y="624"/>
+    <use href="#tC" x="1286" y="638"/>
+    <use href="#tC" x="1148" y="630"/>
+    <use href="#tB" x="838" y="612"/>
+    <use href="#tC" x="1102" y="610"/>
+    <use href="#tC" x="1004" y="600"/>
+  </g>
+
+  <!-- 前排树林 -->
+  <g>
+    <use href="#tA" x="662" y="646"/>
+    <use href="#tB" x="708" y="662"/>
+    <use href="#tC" x="752" y="676"/>
+    <use href="#tA" x="798" y="654"/>
+    <use href="#tC" x="844" y="676"/>
+    <use href="#tB" x="890" y="690"/>
+    <use href="#tA" x="936" y="700"/>
+    <use href="#tC" x="1106" y="666"/>
+    <use href="#tA" x="1154" y="680"/>
+    <use href="#tC" x="1200" y="694"/>
+    <use href="#tB" x="1244" y="704"/>
+    <use href="#tA" x="1286" y="716"/>
+    <use href="#tB" x="1080" y="696"/>
+    <use href="#tC" x="1038" y="712"/>
+    <use href="#tB" x="1058" y="640"/>
+  </g>
+
+  <!-- 棕榈 / 灌木 / 岩石 -->
+  <use href="#palm" x="636" y="676"/>
+  <use href="#palm" x="686" y="696" transform="scale(0.82) translate(157,158)"/>
+  <use href="#palm" x="1322" y="700"/>
+  <use href="#palm" x="1274" y="718" transform="scale(0.7) translate(546,306)"/>
+  <use href="#palm" x="770" y="704" transform="scale(0.62) translate(471,427)"/>
+  <use href="#bush" x="712" y="702"/>
+  <use href="#bush" x="1186" y="704"/>
+  <use href="#bush" x="866" y="706"/>
+  <use href="#bush" x="1056" y="700"/>
+  <use href="#bush" x="962" y="716"/>
+  <use href="#bush" x="806" y="716"/>
+  <use href="#bush" x="1160" y="672"/>
+  <use href="#rock" x="688" y="726"/>
+  <use href="#rock" x="1208" y="738"/>
+  <use href="#rock" x="920" y="742"/>
+  <use href="#rock" x="552" y="690"/>
+  <use href="#rock" x="1370" y="712"/>
+  <use href="#rock" x="814" y="738"/>
+  <use href="#rock" x="1120" y="746"/>
+
+  <!-- 营地 -->
+  <g>
+    <ellipse cx="878" cy="732" rx="44" ry="11" fill="#C6C7AE" opacity="0.6"/>
+    <path d="M846 730 L878 692 L910 730 Z" fill="#DCD0B7"/>
+    <path d="M878 692 L910 730 L878 730 Z" fill="#B7AC93"/>
+    <path d="M878 692 L878 730" stroke="#A69B84" stroke-width="1.6"/>
+    <ellipse cx="942" cy="738" rx="24" ry="11" fill="url(#glow)"/>
+    <path d="M936 738 L942 729 L948 738 Z" fill="#C68C54"/>
+    <path d="M942 729 L942 722" stroke="#7B6952" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <path d="M896 752 C958 742 1034 742 1084 750" stroke="#C6BFA0" stroke-width="5" fill="none" opacity="0.6" stroke-linecap="round"/>
+
+  <!-- 小船 -->
+  <g transform="translate(292,772)">
+    <ellipse cx="0" cy="10" rx="46" ry="9" fill="#CBDAD5" opacity="0.5"/>
+    <path d="M-34 2 C-14 14 14 14 34 2 C20 20 -20 20 -34 2 Z" fill="#8A7F6E"/>
+    <path d="M-34 2 L34 2" stroke="#6F6558" stroke-width="2.4"/>
+    <path d="M2 2 L2 -26" stroke="#7E7466" stroke-width="2.4"/>
+    <path d="M4 -24 C16 -20 22 -12 22 -4 C14 -8 6 -14 4 -20 Z" fill="#DED6C0"/>
+  </g>
+
+  <!-- 近岸浪花 -->
+  <g stroke="#E4ECE6" stroke-width="3" fill="none" opacity="0.5" stroke-linecap="round">
+    <path d="M76 820 q34 -9 68 0 t68 0"/>
+    <path d="M416 846 q30 -8 60 0 t60 0"/>
+    <path d="M972 832 q40 -10 80 0 t80 0"/>
+    <path d="M1316 856 q30 -8 60 0 t60 0"/>
+    <path d="M186 770 q30 -8 60 0 t60 0"/>
+    <path d="M700 878 q36 -9 72 0 t72 0"/>
+  </g>
+  <g fill="#E9F0EA" opacity="0.42">
+    <ellipse cx="470" cy="800" rx="54" ry="9"/>
+    <ellipse cx="1168" cy="814" rx="68" ry="10"/>
+    <ellipse cx="820" cy="876" rx="124" ry="14"/>
+    <ellipse cx="240" cy="866" rx="90" ry="12"/>
+  </g>
+
+  <!-- 海鸟 -->
+  <g stroke="#6E7F7B" stroke-width="2.6" fill="none" stroke-linecap="round" opacity="0.6">
+    <path d="M690 168 q11 -10 22 0 q11 -10 22 0"/>
+    <path d="M760 138 q9 -8 18 0 q9 -8 18 0"/>
+    <path d="M840 196 q8 -7 16 0 q8 -7 16 0"/>
+    <path d="M1496 252 q8 -7 16 0 q8 -7 16 0"/>
+  </g>
+</svg>
